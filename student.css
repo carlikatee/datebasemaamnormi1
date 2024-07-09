@@ -1,0 +1,266 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d32f2f; /* Updated color */
+    color: #8d1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header .mini-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid #d32f2f; /* Updated color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    color: #d32f2f; /* Updated color */
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.profile-info ul li strong {
+    color: #d32f2f; /* Updated color */
+}
+
+button {
+    padding: 10px 20px;
+    background: #4caf50; /* Updated color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #388e3c; /* Darker shade for hover effect */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4caf50; /* Updated color */
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Colors for school years, semesters, and scholarships */
+.school-year {
+    color: #000; /* Dark blue color */
+}
+
+.semester {
+    color: #000000; /* Dark red color */
+}
+
+.scholarship {
+    color: #000000; /* Dark green color */
+}
+
+button.action-btn {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button.view-btn {
+    background: #388e3c; /* Darker shade for view button */
+    color: #fff;
+}
+
+button.view-btn:hover {
+    background: #2e7d32; /* Even darker shade for hover effect */
+}
+
+button.remove-btn {
+    background: #d32f2f;
+    color: #fff;
+}
+
+button.remove-btn:hover {
+    background: #c62828;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a51c30;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.user-icon img {
+    height: 30px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #8d1e1e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    color: #a51c30;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer a {
+    color: #a51c30;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
